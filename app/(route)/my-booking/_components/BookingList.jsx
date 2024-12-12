@@ -29,7 +29,7 @@ const BookingList = ({ bookingList, expired, updateRecord }) => {
         <div key={index} className='flex items-center gap-4 border-[1px] shadow-md p-5 m-3 rounded-lg relative'>
           <Image
             src={item?.doctor?.image?.url} // Fallback jika `url` tidak tersedia
-            className='rounded-full h-[70px] w-[70px] object-cover'
+            className='rounded-full h-[70px] w-[70px] object-cover '
             width={70}
             height={70}
             alt='doctor-image'
