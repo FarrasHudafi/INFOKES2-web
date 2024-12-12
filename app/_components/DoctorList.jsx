@@ -25,7 +25,7 @@ const DoctorList = ({ doctorList, heading = 'Popular Doctors' }) => {
                   {doctor.categories?.[0]?.Name || 'Unknown Category'}
                 </h2>
                 <h2 className="font-bold">{doctor.Name}</h2>
-                <h2 className="text-primary text-sm">{doctor.Year_of_Experience || 'N/A'} years</h2>
+                <h2 className="text-primary text-sm">{doctor.Year_of_Experience || 'N/A'}</h2>
                 <h2 className="text-gray-500 text-sm">{doctor.Address || 'No address available'}</h2>
                 {/* Spacer to push "Book Now" to the bottom */}
                 <div className="flex-grow"></div>
