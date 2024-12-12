@@ -21,7 +21,7 @@ function CategorySearch() {
     })
   }
   return (
-    <div className="mb-10 items-center px-5 flex flex-col gap-2">
+    <div className="mb-10 items-center px-5 flex flex-col gap-2 ">
       <h2 className="font-bold text-4xl tracking-wide">
         Search <span className="text-primary">Doctors</span>
       </h2>
